@@ -1,0 +1,23 @@
+{
+    "name": "hello/hello",
+    "description": "Cason",
+    "homepage": "http://www.cason.com",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "cason",
+            "homepage": "http://www.cason.com"
+        }
+    ],
+    "require": {
+        "php":">=5.3"
+    },
+    "require-dev" : {
+        "phpunit/phpunit": "~4.0"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"Hello\\": "src/Hello"}
+    }
+}
