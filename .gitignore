@@ -1,2 +1,5 @@
-/nbproject/private/
-/nbproject
+vendor/
+.DS_Store
+.idea/
+test/
+Runtime/
